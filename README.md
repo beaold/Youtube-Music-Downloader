@@ -43,4 +43,11 @@
 * **`logs.txt`:** Do not delete this file! It keeps track of downloaded songs to prevent duplicates.
 * **Troubleshooting:** If the window closes immediately, add `pause` to the last line of `indir.bat` to see the error.
 
+---
+
+### 📥 Gerekli Dosyalar / Required Files
+Programın çalışması için aşağıdaki dosyaları indirip `indir.bat` ile aynı klasöre koyun:
+1. **[yt-dlp.exe](https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp.exe)**
+2. **[ffmpeg.exe ve ffprobe.exe](https://www.gyan.dev/ffmpeg/builds/)** (Download "git full" build)
+
 A fast and efficient YouTube music downloader using yt-dlp.
