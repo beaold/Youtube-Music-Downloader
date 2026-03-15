@@ -1,0 +1,6 @@
+# [TR] Indirmek istediginiz YouTube linklerini her satira bir tane gelecek sekilde alt alta yapistirin.
+# [EN] Paste your YouTube video links one per line below.
+
+# Example / Ornek:
+# https://www.youtube.com/watch?v=dQw4w9WgXcQ
+# https://www.youtube.com/watch?v=example123
