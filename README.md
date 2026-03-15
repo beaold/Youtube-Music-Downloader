@@ -28,4 +28,11 @@ A fast, efficient, and intelligent YouTube music downloader using `yt-dlp`.
 * Duplicate prevention / Mükerrer indirme engelleme.
 * Automatic error skipping / Hata durumunda otomatik atlama.
 
+---
+
+### 🛠️ Kurulum (Installation)
+1. **Python Yükleyin:** Bilgisayarınızda Python'ın yüklü olduğundan emin olun. [python.org](https://www.python.org/) adresinden indirebilirsiniz. (Kurulum sırasında "Add Python to PATH" seçeneğini işaretlemeyi unutmayın).
+2. **Kütüphaneyi Yükleyin:** Terminali veya CMD'yi açın ve şu komutu yazarak gerekli kütüphaneyi kurun:
+   `pip install yt-dlp`
+
 A fast and efficient YouTube music downloader using yt-dlp.
