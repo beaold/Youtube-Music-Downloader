@@ -27,5 +27,5 @@ A fast, efficient, and intelligent YouTube music downloader using `yt-dlp`.
 * High-speed downloads / Hızlı indirme.
 * Duplicate prevention / Mükerrer indirme engelleme.
 * Automatic error skipping / Hata durumunda otomatik atlama.
-*
+
 A fast and efficient YouTube music downloader using yt-dlp.
