@@ -1,26 +1,31 @@
 # YouTube-Music-Downloader
 
-A fast, efficient, and intelligent YouTube music downloader using yt-dlp. 
-
-### Nasıl Kullanılır? (How to use)
-1. *Link Ekleme:* linkler.txt dosyasını açın. İndirmek istediğiniz şarkı linklerini her satıra bir tane gelecek şekilde alt alta yazın ve dosyayı kaydedin (Ctrl+S).
-2. *Çalıştırma:* indir.bat dosyasına çift tıklayın. Program listeyi okuyup indirmeye başlayacaktır.
+A fast, efficient, and intelligent YouTube music downloader using `yt-dlp`.
 
 ---
 
-### Önemli Bilgiler (Important Notes)
+### 🇬🇧 English: How to use
+1. **Add Links:** Open `linkler.txt` and paste your YouTube links (one per line). Save the file.
+2. **Run:** Double-click `indir.bat`. The script will start downloading.
+3. **Downloads:** Your music will be saved as MP3 in the folder.
 
-* *logs.txt Dosyası:* Bu dosya programın "hafızasıdır". Daha önce indirdiğiniz bir şarkıyı tekrar indirmemenizi sağlar. 
-    * Önemli: Eğer logs.txt dosyasını silerseniz, program hafızasını kaybeder ve daha önce indirdiğiniz her şeyi "yeni" sanıp tekrar indirmeye çalışır. Dosyayı silmeyin.
-* *Linkleri Silmek:* linkler.txt içindeki linkleri silseniz bile, program logs.txt sayesinde o şarkının geçmişte indirildiğini hatırlar. Yani linkler.txt dosyasını temiz tutabilirsiniz.
-* *Hata Yönetimi:* İndirme sırasında bir link hata verirse (bağlantı kopması vb.), program otomatik olarak o linki atlar ve bir sonraki şarkıya geçer. İndirme işlemi yarım kalmaz.
-* *Link Formatı:* Lütfen sadece video linklerini ekleyin (örneğin: https://www.youtube.com/watch?v=VIDEO_ID). Eğer link içinde &list=... gibi ifadeler varsa, program listenin tamamını indirmeye çalışabilir. En güvenli yol, linkin sadece v=... kısmına kadar olan kısmını almaktır.
+### 🇹🇷 Türkçe: Nasıl Kullanılır?
+1. **Link Ekleme:** `linkler.txt` dosyasını açın, indirmek istediğiniz linkleri her satıra bir tane gelecek şekilde yapıştırın ve kaydedin.
+2. **Çalıştırma:** `indir.bat` dosyasına çift tıklayın.
+3. **İndirilenler:** Müzikleriniz MP3 formatında ilgili klasöre kaydedilecektir.
 
 ---
 
-### Features
-* *High-Speed:* Uses concurrent fragments for faster downloads.
-* *Smart History:* Avoids re-downloading previously downloaded tracks.
-* *Automatic Error Skipping:* Automatically skips broken links to complete the list.
+### ℹ️ Important Notes / Önemli Bilgiler
+* **`logs.txt`:** This is the "memory" of the tool. It prevents re-downloading existing tracks. / Programın hafızasıdır, daha önce indirilenleri tekrar indirmez. **Do not delete it! / Silmeyin!**
+* **Error Handling / Hata Yönetimi:** If a link fails, the program automatically skips it and moves to the next. / Bir link hata verirse program otomatik olarak atlar ve diğerine geçer.
+* **Link Format:** Use simple video links (e.g., `youtube.com/watch?v=...`). Avoid playlist links (`&list=...`). / Linklerin sadece video kısmını kullanın, liste linklerinden kaçının.
+
+---
+
+### 🚀 Features / Özellikler
+* High-speed downloads / Hızlı indirme.
+* Duplicate prevention / Mükerrer indirme engelleme.
+* Automatic error skipping / Hata durumunda otomatik atlama.
 *
 A fast and efficient YouTube music downloader using yt-dlp.
